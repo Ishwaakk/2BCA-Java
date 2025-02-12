@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Lab6
+comment1.params=supplierId\ companyName\ contactPerson\ contactNumber\ email
+comment1.target=Supplier(int,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+comment2.params=
+comment2.target=void\ displayDetails()
+comment3.params=
+comment3.target=void\ stringFunctions()
+comment4.params=
+comment4.target=void\ stringBufferFunctions()
+comment5.params=args
+comment5.target=void\ main(java.lang.String[])
+numComments=6

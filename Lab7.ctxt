@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Lab7
+comment1.params=orderId\ customerId\ orderDate\ totalAmount\ status
+comment1.target=Order(int,\ int,\ java.lang.String,\ float,\ java.lang.String)
+comment2.params=
+comment2.target=void\ displayDetails()
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+numComments=4

@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Lab3
+comment1.params=
+comment1.target=Warehouse()
+comment2.params=houseId\ loc\ cap\ currentStock\ manager
+comment2.target=Warehouse(int,\ java.lang.String,\ float,\ float,\ java.lang.String)
+comment3.params=qty
+comment3.target=void\ addStock(float)
+comment4.params=qty
+comment4.target=void\ addStock(float[])
+comment5.params=
+comment5.target=void\ display()
+comment6.params=args
+comment6.target=void\ main(java.lang.String[])
+numComments=7
