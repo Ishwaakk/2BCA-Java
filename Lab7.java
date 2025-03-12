@@ -8,9 +8,12 @@ class Order {
     private String status;
 
     public Order(int orderId, int customerId, String orderDate, float totalAmount, String status) {
-        if (orderId <= 0 || customerId <= 0) throw new IllegalArgumentException("Order ID and Customer ID must be positive.");
-        if (totalAmount < 0) throw new IllegalArgumentException("Total amount cannot be negative.");
-        if (orderDate.isEmpty() || status.isEmpty()) throw new IllegalArgumentException("Fields cannot be empty.");
+        if (orderId <= 0 || customerId <= 0) 
+            throw new IllegalArgumentException("Order ID and Customer ID must be positive.");
+        if (totalAmount < 0) 
+            throw new IllegalArgumentException("Total amount cannot be negative.");
+        if (orderDate.isEmpty() || status.isEmpty()) 
+            throw new IllegalArgumentException("Fields cannot be empty.");
         
         this.orderId = orderId;
         this.customerId = customerId;
